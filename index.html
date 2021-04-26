@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equi v="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
 
@@ -20,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -28,8 +28,8 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <a href="#" class="logo">Discover</a>
-                <nav>
+                <a href="#" class="logo" data-aos="slide-right">Discover</a>
+                <nav data-aos="slide-left">
                     <button class="miniMenu">Menu</button>
                     <ul>
                         <li>
@@ -56,16 +56,16 @@
 
         <section class="home">
             <div class="container home-container">
-                <h1 class="home-title">Discover</h1>
-                <p class="home-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <a href="#" class="home-link">Booking tour</a>
+                <h1 class="home-title" data-aos="fade-up" data-aos-delay="50">Discover</h1>
+                <p class="home-text" data-aos="fade-up" data-aos-delay="100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a href="#" class="home-link" data-aos="fade-up" data-aos-delay="150">Booking tour</a>
             </div>
         </section>
 
         <section class="favorable">
             <h2 class="section_title">Favorable</h2>
             <div class="container fav_container">
-                <article class="fav_item">
+                <article class="fav_item" data-aos="flip-left">
                     <img class="fav_img" src="https://picsum.photos/id/10/600/600" alt="">
                     <div class="fav_text">
                         <h6>Sed ut perspiciatis unde omnis iste natus
@@ -76,7 +76,7 @@
 							error</p>
                     </div>
                 </article>
-                <article class="fav_item">
+                <article class="fav_item" data-aos="flip-left">
                     <img class="fav_img" src="https://picsum.photos/id/1003/600/600" alt="">
                     <div class="fav_text">
                         <h6>Sed ut perspiciatis unde omnis iste natus
@@ -87,7 +87,7 @@
 							error</p>
                     </div>
                 </article>
-                <article class="fav_item">
+                <article class="fav_item" data-aos="flip-left">
                     <img class="fav_img" src="https://picsum.photos/id/101/600/600" alt="">
                     <div class="fav_text">
                         <h6>Sed ut perspiciatis unde omnis iste natus
@@ -98,7 +98,7 @@
 							error</p>
                     </div>
                 </article>
-                <article class="fav_item">
+                <article class="fav_item" data-aos="flip-left">
                     <img class="fav_img" src="https://picsum.photos/id/1018/600/600" alt="">
                     <div class="fav_text">
                         <h6>Sed ut perspiciatis unde omnis iste natus
@@ -217,7 +217,7 @@
                     </div>
                     <div class="contacts-item">
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel: 8 800 555 35 35">8 800 555 35 35</a>
+                        <a href="tel:88005553535">8 800 555 35 35</a>
                     </div>
                     <div class="contacts-item">
                         <i class="far fa-envelope"></i>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="contacts-form">
-                    <form action="">
+                    <form action="mail.php">
                         <input type="text" placeholder="Your name">
                         <input type="email" placeholder="Email">
                         <textarea placeholder="Message"></textarea>
@@ -249,6 +249,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
 </body>

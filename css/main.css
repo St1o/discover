@@ -23,6 +23,7 @@ body {
 .wrapper {
     max-width: var(--wrapWidth);
     margin: 0 auto;
+    overflow: hidden; /* чтобы не было скрола, когда выезжают слайды по бокам */
 }
 
 .container {
